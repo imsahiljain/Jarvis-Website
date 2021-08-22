@@ -1,0 +1,11 @@
+Model Information:
+* title:	Arc Reactor - Tony Stark - HIGH POLY
+* source:	https://sketchfab.com/3d-models/arc-reactor-tony-stark-high-poly-7c57e1f6b3034194a1e3c8abb3a49df2
+* author:	Redox (https://sketchfab.com/aionix)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Arc Reactor - Tony Stark - HIGH POLY" (https://sketchfab.com/3d-models/arc-reactor-tony-stark-high-poly-7c57e1f6b3034194a1e3c8abb3a49df2) by Redox (https://sketchfab.com/aionix) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

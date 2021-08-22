@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- Default Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <!-- Tailwind CSS CDN -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>J.A.R.V.I.S.</title>
+</head>
+<body>
+
+    
+    <!------------------
+         Header Start 
+     ------------------->
+
+
+        <header id="header">
+
+            <!------------------
+                Navbar Start 
+             ------------------->
+
+             <div id="navbar">
+                
+                <!-- Haamburger Menu -->
+                <div class="hamburger">
+                  <div class="line-1"></div>
+                  <div class="line-2"></div>
+                  <div class="line-3"></div>
+                </div>
+
+                <!-- Logo -->
+                <div class="logo">
+                <a href="index.html" class="jarvis-logo">J.A.R.V.I.S</a>
+                </div>
+                
+                <!-- Navigation Links -->
+                <ul class="nav-links">
+                  <li><a href="index.html">home</a></li>
+                  <li><a href="index.html#desc">about</a></li>
+                  <li><a href="#">parts</a></li>
+                  <li><a href="gallery.html">gallery</a></li>
+                  <!-- Mode Toggler -->
+                  <li id="modeToggle"><img src="assets/logo/theme/sun.png" id="icon" alt=""></li>
+                </ul>
+              </div>
+                
+             <!------------------
+                Navbar End 
+             ------------------->
+
+        </header>
+
+
+     <!------------------
+         Header End 
+     ------------------->
+
+
+
+
+    <!------------------
+        Parts Start
+    ------------------->           
+
+
+
+        <h1 id="parts-main">Parts of the Suit</h2>
+        <br><br>
+
+        <div class="tab">
+            <button class="tablinks" id="tabname" onclick="openModel(event, 'one')">Electronic Helmet</button>
+            <button class="tablinks" id="tabname" onclick="openModel(event, 'two')">Body Suit</button>
+            <button class="tablinks" id="tabname" onclick="openModel(event, 'three')">Arc Reactor</button>
+            <button class="tablinks" id="tabname" onclick="openModel(event, 'four')">J.A.R.V.I.S. AI</button>
+        </div>
+
+
+        <div id="one" class="tabcontent">
+            <div class="row">
+                <div class="column">
+                    <br><br>
+                    <h1 style="margin-left: 80px;">Electronic Helmet</h1>
+                    <br><br>
+                    <p style="margin-left: 80px;">The Iron Man Electronic Helmet features premium sculpting and deco and is an impressive addition to any Marvel collection. The helmet interior and the faceplate are detailed to evoke the electronic design. The exterior of the helmet boasts a remarkable attention to detail and a beautiful finish.</p>
+                </div>
+
+                <div class="column">
+                    <model-viewer style="width: 400px; height: 400px; margin-top: 10px;" src="assets/iron-helmet/scene.gltf" alt="iron man" class="basic-model" auto-rotate camera-controls ar ios-src="assets/iron-helmet/scene.gltf"></model-viewer>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="two" class="tabcontent">
+            <div class="row">
+                <div class="column">
+                    <br><br>
+                    <h1 style="margin-left: 80px;" >Body Suit</h1>
+                    <br><br>
+                    <p style="margin-left: 80px;">Stark's suits are each unique in design and purpose. They are made of incredibly-strong, fictional materials bolstered by a force field. Every suit has a self-contained environment, assorted onboard weapons systems, enhanced strength, flight, and various communications arrays and sensors, such as radar and radio. Furthermore, they typically have multiple power sources including a secondary solar energy collection function in the event that conventional recharging methods are unavailable. Earlier versions of the armor could also fold virtually flat, allowing Stark to store them in his bullet-proof briefcase.</p>
+                </div>
+
+                <div class="column">
+                    <model-viewer style="width: 400px; height: 400px; margin-top: 10px;" src="assets/iron-upper/scene.gltf" alt="iron man" class="basic-model" auto-rotate camera-controls ar ios-src="assets/iron-upper/scene.gltf"></model-viewer>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="three" class="tabcontent">
+            <div class="row">
+                <div class="column">
+                    <br><br>
+                    <h1 style="margin-left: 80px;">Arc Reactor</h1>
+                    <br><br>
+                    <p style="margin-left: 80px;">The Arc Reactor was a fusion type power source featuring a palladium core, and was the initial power source of the first Iron Man suits, and was later modified to an advanced level by Tony Stark to power his more advanced suits, as it kept on improving.</p>
+                </div>
+
+                <div class="column">
+                    <model-viewer style="width: 400px; height: 400px; margin-top: 10px;" src="assets/iron-arc/scene.gltf" alt="iron man" class="basic-model" auto-rotate camera-controls ar ios-src="assets/iron-arc/scene.gltf"></model-viewer>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="four" class="tabcontent">
+            <div class="row">
+                <div class="column">
+                    <br><br>
+                    <h1 style="margin-left: 80px;">J.A.R.V.I.S. AI</h1>
+                    <br><br>
+                    <p style="margin-left: 80px;">Just A Rather Very Intelligent System (J.A.R.V.I.S.) was originally Tony Stark's natural-language user interface computer system, named after Edwin Jarvis, the butler who worked for Howard Stark. Over time, he was upgraded into an artificially intelligent system, tasked with running business for Stark Industries as well as security for Tony Stark's Mansion and Stark Tower. After creating the Mark II armor, Stark uploaded J.A.R.V.I.S. into all of the Iron Man Armors, as well as allowing him to interact with the other Avengers, giving them valuable information during combat.</p>
+                </div>
+
+                <div class="column">
+                    <img style="width: 500px; height: 400px; margin-top: 10px;" src="assets/iron-jarvis.jpg"></img>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    <!------------------
+        Parts End
+    ------------------->
+
+
+
+        <!-- Tabs Switcher JS -->
+        <script>
+            function openModel(evt, ModelName) {
+
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(ModelName).style.display = "block";
+                evt.currentTarget.className += " active";
+                }
+        </script>
+
+        <!-- Custom JS File -->
+        <script src="js/main.js"></script>
+
+        <!-- Model Viewer -->
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+        <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+        <!-- Jquery -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+</body>
+</html>
